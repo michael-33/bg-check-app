@@ -2,6 +2,8 @@ how to run the project locally:
 
 ## Backend
 
+install dependencies
+
 create .env for backend and add:
 PORT=3001
 
@@ -22,6 +24,8 @@ OPENAI_API_KEY=?
 run the command: npm run dev
 
 ## Frontend
+
+install dependencies
 
 create .env for frontend and add:
 REACT_APP_API_BASE_URL=http://localhost:3001
