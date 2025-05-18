@@ -1,13 +1,13 @@
 how to run the project locally:
 
-## Backend
+# Backend
 
 install dependencies
 
 create .env for backend and add:
 PORT=3001
 
-# postgreSQL
+## postgreSQL
 
 run postgreSQL server locally
 create a database
@@ -16,14 +16,14 @@ create a table using the script in backend\src\infrastructure\database\migration
 in backend\.env, add:
 POSTGRESQL_DATABASE_URL=postgresql://{postgres_username}:{postgres_password}@localhost:5432/{database_name}
 
-# OpenAI
+## OpenAI
 
 in backend\.env, add:
 OPENAI_API_KEY=?
 
 run the command: npm run dev
 
-## Frontend
+# Frontend
 
 install dependencies
 
